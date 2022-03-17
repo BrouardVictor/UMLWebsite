@@ -17,26 +17,24 @@ nav ul li:first-child{
   margin-left: -3em;
 }
 
-nav ul .logo  {
+nav ul .logo a  {
   color:blue;
 }
 
 a{
-  color: darkred;
   text-decoration: none;
+}
+
+.section{
+  color: darkred;
 }
 
 .active{
   background-color: #8D8D8D;
 }
 
-.active a{
+.active .section{
   color: purple;
-}
-
-main{
-  text-align: center;
-  margin-top: 40vh;
 }
 
 @media (max-width: 640px) {
